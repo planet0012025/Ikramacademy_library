@@ -1,16 +1,4 @@
-images/barcodes/*
-images/persons/*
-images/docs/*
-images/labels/*
-images/cache/*
-images/content/*
-images/default/logo.*
-images/default/webicon.*
-files/*
-!files/membercard/*
-repository/*
-config/*
-cache/*
+# --- FILE YANG WAJIB DIABAIKAN (Demi Keamanan & Kebersihan) ---
 .DS_Store
 ._.*
 ._*
@@ -23,30 +11,18 @@ sysconfig.inc.php
 slims8_akasia.sublime-project
 slims8_akasia.sublime-workspace
 
-plugins/*
-!plugins/read_counter/
-
-template/*
-
-# Windows image file caches
+# Cache Windows (Sampah)
 Thumbs.db
 ehthumbs.db
-
-# Folder config file
 Desktop.ini
-
-# Recycle Bin used on file shares
 $RECYCLE.BIN/
-
-# Windows Installer files
 *.cab
 *.msi
 *.msm
 *.msp
-
-# Windows shortcuts
 *.lnk
 
+# Vendor dan Config sensitif lainnya
 /vendor/
 composer.lock
 config/database.php
@@ -56,5 +32,9 @@ config/csp.php
 config/auth.php
 tarsius
 
+# File Environment (Boleh dibuka kalau mau share template env)
 .env
 .htaccess
+
+# --- BAGIAN DI BAWAH INI SUDAH SAYA HAPUS/BUKA AKSESNYA ---
+# (Folder images, files, repository, dan template sekarang AKAN di-upload)
